@@ -1,1 +1,3 @@
-<p>a</p>
+<?php
+  include_once("index.html")
+?>
