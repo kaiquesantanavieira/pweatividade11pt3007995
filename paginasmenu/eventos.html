@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eventos - IFSP - Pirituba</title>
+  <link rel="favicon" charset="favicon.ico"/>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header id="cabecalho">
+    <nav class="menu">
+      <object width="100%" height="200px" data="../menu.html"></object>
+    </nav>
+  </header>
+  
+  <h1>Inscreva-se</h1>
+  <form>
+    <fieldset>
+      <label for="Evento">Evento:</label><br>
+      <select class="form" name="evento" required>
+        <option value="">-- Selecione --</option>
+        <option value="asas">Voe sem Asas</option>
+        <option value="junina">Festa junina</option>
+        <option value="semanatecnologia">Semana da tecnologia</option>
+      </select>
+    </fieldset>
+  </form>
+
+  <form>
+  <fieldset><legend>Informações de Acesso</legend>
+    <br>
+    <label for="Usuario">Usuário:</label><br>
+    <input type="text" name="Usuario" id="Usuario" class="textoform" required><br>
+    <br>
+    <label for="Usuario">Senha:</label>
+    <input type="password" name="senhaUsuario" id="senhaUsuario" required><br>
+    <br>
+    <label for="confirmasenha">Confirme a Senha:</label>
+    <input type="password" name="confirmasenha" id="confirmasenha" required>
+  <br>
+  </fieldset>
+
+  <fieldset><legend>Informações Pessoais</legend>
+      <br>
+      <label for="nomecompleto">Nome Completo:</label><br>
+      <input type="text" name="nomecompleto" id="nomecompleto" class="textoform" required><br>
+      <br>
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" id="email"  class="textoform" required><br>
+      <br>
+      <label for="celular">Celular: (99) 99999-9999</label><br>
+      <input type="number" name="celular" id="celular" required class="textoform">
+    <br>
+      <fieldset><legend>Sexo</legend>
+        <label for="masculino">Masculino:</label>
+        <input type="radio" value="Masculino" name="sexo" >
+        <label for="feminino">Feminino:</label>
+        <input type="radio" value="Feminino" name="sexo">
+      </fieldset>
+      <br>
+      <label for="datanascimento">Data de Nascimento:</label>
+      <input type="date" id="datanascimento" name="datanascimento" required>
+      <br>
+      <br>
+      <label for="corfavorita">Cor favorita:</label>
+      <input type="color" id="corfavorita" name="corfavorita" required>
+      <br>
+      <br>
+      <label for="perfilgithub">Perfil no Github:</label><br>
+      <input type="url" id="perfilgithub" name="perfilgithub" class="textoform" required>
+  </fieldset>
+  <br>
+      <button type="submit" class="botaoevento">Inscrever-se</button><br> <input type="reset" value="Limpar" class="botaoevento"></input>
+    </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <object data='../footer.html' width="100%"></object>
+  </footer>
+  
+
+
+  
+  
+</body>
+</html>
